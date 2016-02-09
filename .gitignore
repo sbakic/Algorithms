@@ -1,5 +1,11 @@
+# C++ Ignore
 bin
 obj
 *.cbp
 *.depend
 *.layout
+
+# Java Ignore
+.settings
+.classpath
+.project
