@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+  int n;
+  cin >> n;
+  for (int i = 0, k = 0; i < n; i++) {
+    for (int j = 0; j < n / 2; j++, k++) {
+      cout << k + 1 << " " << n * n - k << " ";
+    }
+    cout << '\n';
+  }
+  return 0;
+}
