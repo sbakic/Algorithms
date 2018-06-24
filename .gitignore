@@ -1,11 +1,16 @@
-# C++ Ignore
+# CLion
+.idea/
+cmake-build-debug/
+CMakeLists.txt
+
+# C++
 bin
 obj
 *.cbp
 *.depend
 *.layout
 
-# Java Ignore
+# Java
 .settings
 .classpath
 .project
